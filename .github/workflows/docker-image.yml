@@ -6,6 +6,10 @@ on:
   pull_request:
     branches: [ "master" ]
 
+on:
+  workflow_dispatch:  # 這會讓 workflow 支援手動觸發
+
+
 jobs:
 
   build:
